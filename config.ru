@@ -4,4 +4,4 @@ Bundler.setup
 require './app'
 
 
-run Sinatra::Application
+run CanIUse

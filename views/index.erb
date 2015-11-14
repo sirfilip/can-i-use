@@ -1,0 +1,12 @@
+<% title 'Home' %>
+<h1>Check If Domain is Available</h1>
+<form action="." method="POST">
+  <div class="form-group">
+    <label for="domain">Domain</label>
+    <input type="text" class="form-control" name="domain" id="domain" placeholder="Enter Domain To Check" value="<%= params['domain'] %>" />
+  </div>
+  <% if @message %>
+    <div class="alert alert-success"><%= @message %></div>
+  <% end %>
+  <input type="submit" />
+</form>
