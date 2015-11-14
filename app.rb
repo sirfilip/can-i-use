@@ -50,17 +50,24 @@ __END__
 <html>
 <head>
 <title>Domain Checker</title>
+<link rel="stylesheet" href="/css/bootstrap.css" />
 </head>
 <body>
-  <%= yield %>
+  <div class="container">
+    <%= yield %>
+  </div>
 </body>
 </html>
 
 @@index
 <h1>Check If Domain is Available</h1>
 <form action="." method="POST">
-  <label for="domain">Domain</label>
-  <input type="text" name="domain" id="domain" placeholder="Enter Domain To Check" value="<%= params['domain'] %>" />
+  <div class="form-group">
+    <label for="domain">Domain</label>
+    <input type="text" class="form-control" name="domain" id="domain" placeholder="Enter Domain To Check" value="<%= params['domain'] %>" />
+  </div>
+  <% if @message %>
+    <div class="alert alert-success"><%= @message %></div>
+  <% end %>
   <input type="submit" />
 </form>
-<%= @message %>
