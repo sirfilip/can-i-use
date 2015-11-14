@@ -1,1 +1,1 @@
-### Just a simple domain checking service build with sinatra ###
+### Just a simple domain checking service built with sinatra ###
