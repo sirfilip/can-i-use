@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time='0.000520' skipped='0' failures='0' errors='0' name="Cachier::Cachier::Base" assertions='10' tests='4'>
+  <testcase time='0.000101' name="test_0004_can update the ttl" assertions='1'>
+  </testcase>
+  <testcase time='0.000031' name="test_0001_has default time to live set to 2 hours" assertions='1'>
+  </testcase>
+  <testcase time='0.000081' name="test_0002_can store data into the cache for atmost ttl time" assertions='4'>
+  </testcase>
+  <testcase time='0.000308' name="test_0003_refreshes the ttl every time we set new item" assertions='4'>
+  </testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time='0.000069' skipped='0' failures='0' errors='0' name="Cachier" assertions='2' tests='1'>
+  <testcase time='0.000069' name="test_0001_can use different slots for storing the data" assertions='2'>
+  </testcase>
+</testsuite>
